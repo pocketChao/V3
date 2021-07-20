@@ -1,5 +1,7 @@
 dist-ssr
 *.local
+### jest ###
+coverage/
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,webstorm,visualstudiocode,vuejs,sublimetext,yarn
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,webstorm,visualstudiocode,vuejs,sublimetext,yarn

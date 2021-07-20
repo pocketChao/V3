@@ -1,25 +1,36 @@
 {
   "name": "v3",
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "dependencies": {
     "vue": "^3.0.5"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@types/jest": "^26.0.24",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
     "@vitejs/plugin-vue": "^1.2.5",
     "@vue/compiler-sfc": "^3.0.5",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-rc.10",
+    "babel-jest": "^27.0.6",
     "eslint": "^7.31.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0",
     "typescript": "^4.3.5",
     "vite": "^2.4.2",
+    "vue-jest": "^3.0.7",
+    "vue-template-compiler": "^2.6.14",
     "vue-tsc": "^0.0.24"
   }
 }
