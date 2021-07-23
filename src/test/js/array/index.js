@@ -14,6 +14,10 @@ const array = [{
     name: '老四',
     age: 58,
     sex: 1
+}, {
+    name: '玉田',
+    age: 28,
+    sex: 1
 }]
 
 export {
